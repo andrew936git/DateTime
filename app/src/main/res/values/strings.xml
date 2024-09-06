@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DateTime</string>
+    <string name="textView_text">Карточка данных</string>
+    <string name="nameETHint">Введите имя</string>
+    <string name="surnameETHint">Введите фамилию</string>
+    <string name="dateETHint">Введите дату рождения: дд.мм.гггг</string>
+    <string name="saveButtonText">Сохранить</string>
+    <string name="phoneETHint">Введите номер телефона</string>
+    <string name="exit_menu_text">Выход</string>
+</resources>

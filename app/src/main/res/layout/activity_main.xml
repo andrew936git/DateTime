@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_text"
+        android:layout_marginTop="@dimen/_60dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewIV"
+        android:layout_width="@dimen/_300dp"
+        android:layout_height="@dimen/_300dp"
+        android:layout_margin="@dimen/_8dp"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nameEditTextET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nameETHint"
+            android:layout_margin="@dimen/_4dp"
+            android:layout_weight="2"
+            />
+
+        <EditText
+            android:id="@+id/surnameEditTextET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/surnameETHint"
+            android:layout_margin="@dimen/_4dp"
+            android:layout_weight="2"
+            />
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/dateEditTextET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dateETHint"
+            android:layout_margin="@dimen/_4dp"
+            />
+
+        <EditText
+            android:id="@+id/phoneEditTextET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phoneETHint"
+            android:layout_margin="@dimen/_4dp" />
+
+    <Button
+        android:id="@+id/saveButtonBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4dp"
+        android:text="@string/saveButtonText"
+        />
+
+</LinearLayout>
